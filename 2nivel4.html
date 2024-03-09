@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nivel 3.1</title>
+        <link rel="stylesheet" href="css/3Nivel.css">
+    </head>
+    <body background="img/Fondo/Nivel.png">
+        <header>
+            <h1 align="center">Nivel 3.1</h1>
+            <br><br>
+            <h3 align="center">Arrastra las imagenes hacia los espacios vacios, para completar las sumas y las restas. Hay mas respuestas que operaciones</h3>
+        </header>
+        <br><br>
+        <table class="small">
+            <tr>
+                <td><div class="dropper" id="drop1"></div></td>
+                <td><big>+</big></td>
+                <td><img draggable="false" src="img/Niveles/N2.png" id="2apple" class="oper" height="125px"></td>
+                <td><big>=</big></td>
+                <td><img draggable="false" src="img/Niveles/N11.png" id="11apple" class="oper" height="125px"></td>
+            </tr>
+            <tr>
+                <td><img draggable="false" src="img/Niveles/N4.png" id="4apple" class="oper" height="125px"></td>
+                <td><big>-</big></td>
+                <td><div class="dropper" id="drop2"></div></td>
+                <td><big>=</big></td>
+                <td><img draggable="false" src="img/Niveles/N3.png" id="3apple" class="oper" height="125px"></td>
+            </tr>
+            <tr>
+                <td><div class="dropper" id="drop3"></div></td>
+                <td><big>+</big></td>
+                <td><img draggable="false" src="img/Niveles/N6.png" id="6apple" class="oper" height="125px"></td>
+                <td><big>=</big></td>
+                <td><img draggable="false" src="img/Niveles/N16.png" id="16apple" class="oper" height="125px"></td>
+            </tr>
+        </table>
+        <aside class="start" id="side">
+            <td><img class="item" id="drag1" draggable="true" src="img/Niveles/N10.png" height="125px"></td>
+            <td><img class="item" id="drag2" draggable="true" src="img/Niveles/N3.png" height="125px"></td>
+            <td><img class="item" id="drag3" draggable="true" src="img/Niveles/N1.png" height="125px"></td>
+            <td><img class="item" id="drag4" draggable="true" src="img/Niveles/N7.png" height="125px"></td>
+            <td><img class="item" id="drag5" draggable="true" src="img/Niveles/N17.png" height="125px"></td>
+            <td><img class="item" id="drag6" draggable="true" src="img/Niveles/N9.png" height="125px"></td>
+            <div id="submit">
+                Comprobar
+            </div>    
+        </aside>
+    </body>
+    <script src="js/nivel4.js"></script>
+</html>

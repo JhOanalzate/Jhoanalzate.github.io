@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>loading...</title>
+        <link rel="stylesheet" href="css/0Load.css">
+        <script>
+            let index=2;
+            var color=["yellow","red", "blue","green"];
+            setInterval(function(){
+                index++;
+                if (index==4){
+                    index=0;
+                }
+                bar.style.background=color[index];
+            }, 2000)
+            //setTimeout(function(){
+            //    window.location.href="";
+            //}, 3000)
+        </script>
+    </head>
+    <body background="img/Fondo/fondo1.jpg">
+        <img src="img/MateLearning.png" id="logo">
+        <div id="bar"></div>
+    </body>
+</html>
